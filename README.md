@@ -53,15 +53,15 @@ Install
 
 Run
 ===
-Training:
-
+1. Training:
+    
     ```Shell
     python train.py
     ```
     
 To switch single GPU training or multiply GPUs training, please change tools/train_qp.py.
 
-Test:
+2. Test:
 
     ```Shell
     python test.py
@@ -69,7 +69,7 @@ Test:
     
 To switch single GPU training or multiply GPUs training, please change tools/test_qp.py.
 
-Infer:
+3. Infer:
 
     ```Shell
     python infer.py

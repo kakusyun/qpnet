@@ -29,3 +29,15 @@ Install
 
     pip install -r requirements.txt
     ```
+
+4. Data preparation
+   
+   Please use labelme to label your samples and get the dataset like:   
+   ```Shell
+   # dataset/your_data
+   |--images
+   |--jsons
+   ```
+   If you don't use labelme, just let your data like above.
+   
+   

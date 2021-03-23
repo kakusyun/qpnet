@@ -1,0 +1,9 @@
+yacs==0.1.7
+torch==1.6.0
+scikit_image==0.16.2
+Shapely==1.7.0
+numpy==1.19.1
+pandas==1.0.5
+opencv_python==4.3.0.36
+tqdm==4.48.2
+skimage==0.0

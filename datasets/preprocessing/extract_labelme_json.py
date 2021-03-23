@@ -108,8 +108,8 @@ def generateAnn(jpeg_path, json_path, ann_file):
 
 def main():
     # Note: datasets
-    JpegPath = ['oral_1', 'oral_2']
-    JsonPath = ['oral_1_json', 'oral_2_json']
+    JpegPath = ['images']
+    JsonPath = ['jsons']
     AnnoFile = os.path.join(f'../{DataName}', 'annotations.txt')
     if os.path.exists(AnnoFile):
         os.remove(AnnoFile)

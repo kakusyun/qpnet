@@ -31,7 +31,13 @@ Install
     pip install -r requirements.txt
     ```
 
-4. Data preparation
+4. Build
+    ```Shell
+    cd qpnet
+    python setup.py develop
+    ```
+
+5. Data preparation
    
    Please use labelme to label your samples and get the dataset like:   
    ```Shell
@@ -45,12 +51,7 @@ Install
    cd datasets/preprocessing
    python one_step_preprocessing.py
    ```
- 
- 5. Build
-    ```Shell
-    cd qpnet
-    python setup.py develop
-    ```
+  
 
 Run
 ===

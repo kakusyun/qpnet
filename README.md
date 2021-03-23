@@ -40,29 +40,39 @@ Install
    ```
    If you don't use labelme, just let your data like above.
    
+   ```Shell
    cd datasets/preprocessing
    python one_step_preprocessing.py
+   ```
  
  5. Build
+    ```Shell
     cd qpnet
     python setup.py develop
+    ```
 
 Run
 ===
 Training:
+
     ```Shell
     python train.py
     ```
+    
 To switch single GPU training or multiply GPUs training, please change tools/train_qp.py.
 
 Test:
+
     ```Shell
     python test.py
     ```
+    
 To switch single GPU training or multiply GPUs training, please change tools/test_qp.py.
 
 Infer:
+
     ```Shell
     python infer.py
     ```
+    
 To switch single GPU training or multiply GPUs training, please change tools/infer_qp.py.

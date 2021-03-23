@@ -1,7 +1,7 @@
 Quadrant Perception Network (QPNet)
 ===
 
-Description: A simple and elegant model based on instance segmentation is designed for text detection in a document and natural image. Consisting of convolutional and bidirectional long short term memory (BiLSTM) networks, it focuses on segmenting the close text instances and detecting the long text to improve the practicability in real applications. The input images are encoded by their grid locations related to the four quadrants of an object and the background. BiLSTMs with transposing operations are used to combine the left-right and up-down contexts. Without bounding box regression, only one output classification branch is designed to predict the accurate location of each pixel, namely quadrant perception. Therefore, it is easy to train. Finally, simple post-processing is employed to find text locations naturally.
+A simple and elegant model based on instance segmentation is designed for text detection in a document and natural image. Consisting of convolutional and bidirectional long short term memory (BiLSTM) networks, it focuses on segmenting the close text instances and detecting the long text to improve the practicability in real applications. The input images are encoded by their grid locations related to the four quadrants of an object and the background. BiLSTMs with transposing operations are used to combine the left-right and up-down contexts. Without bounding box regression, only one output classification branch is designed to predict the accurate location of each pixel, namely quadrant perception. Therefore, it is easy to train. Finally, simple post-processing is employed to find text locations naturally.
 
 ![image](https://github.com/kakusyun/qpnet/blob/master/images/encoding.png)
 

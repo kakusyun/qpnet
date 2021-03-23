@@ -6,4 +6,4 @@ The implementation of the paper "A Quadrant Perception Network for Text Detectio
 
 Install
 ===
-1. 
+1. Clone the project

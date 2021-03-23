@@ -53,7 +53,7 @@ Install
 
 Run
 ===
-1. Training:
+1. Train:
     
     ```Shell
     python train.py

@@ -9,15 +9,15 @@ Install
 1. Clone the project
 
     ```Shell
-    git clone https://github.com/cfzd/Ultra-Fast-Lane-Detection
-    cd Ultra-Fast-Lane-Detection
+    git clone https://github.com/kakusyun/qpnet
+    cd qpnet
     ```
 
 2. Create a conda virtual environment and activate it
 
     ```Shell
-    conda create -n lane-det python=3.7 -y
-    conda activate lane-det
+    conda create -n qpnet python=3.7 -y
+    conda activate qpnet
     ```
 
 3. Install dependencies

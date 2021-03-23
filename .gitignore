@@ -3,11 +3,6 @@ datasets/math
 models/
 results/
 
-*.jpg
-*.png
-*.txt
-*.json
-*.diff
 
 # compilation and distribution
 __pycache__

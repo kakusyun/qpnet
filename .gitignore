@@ -3,7 +3,6 @@ datasets/math
 models/
 results/
 
-
 # compilation and distribution
 __pycache__
 _ext

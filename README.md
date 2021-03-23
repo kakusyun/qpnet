@@ -59,7 +59,7 @@ Run
     python train.py
     ```
     
-To switch single GPU training or multiply GPUs training, please change tools/train_qp.py.
+    To switch single GPU training or multiply GPUs training, please change tools/train_qp.py.
 
 2. Test:
 
@@ -67,7 +67,7 @@ To switch single GPU training or multiply GPUs training, please change tools/tra
     python test.py
     ```
     
-To switch single GPU training or multiply GPUs training, please change tools/test_qp.py.
+    To switch single GPU training or multiply GPUs training, please change tools/test_qp.py.
 
 3. Infer:
 
@@ -75,4 +75,4 @@ To switch single GPU training or multiply GPUs training, please change tools/tes
     python infer.py
     ```
     
-To switch single GPU training or multiply GPUs training, please change tools/infer_qp.py.
+    To switch single GPU training or multiply GPUs training, please change tools/infer_qp.py.

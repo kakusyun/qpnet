@@ -77,8 +77,7 @@ def generateAnn(jpeg_path, json_path, ann_file):
                         if label['shapes'][i]['shape_type'] != 'rectangle':
                             print('error code:2.')
                             raise Exception('labeled by rectangle.')
-
-                        # Note: 小数还是整数后面确认！
+                        
                         x1 = label['shapes'][i]['points'][0][0]
                         y1 = label['shapes'][i]['points'][0][1]
                         x2 = label['shapes'][i]['points'][1][0]

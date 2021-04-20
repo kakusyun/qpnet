@@ -5,7 +5,6 @@ A simple and elegant model based on instance segmentation is designed for text d
 
 ![image](https://github.com/kakusyun/qpnet/blob/master/images/encoding.png)
 
-
 Install
 ===
 1. Clone the project
